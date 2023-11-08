@@ -1,0 +1,10 @@
+context_size: 1024
+name: gpt4all-snoozy-13b
+parameters:
+  model: gpt4all-snoozy-13b-superhot-8k.ggmlv3.q4_K_S.bin
+  temperature: 0.2
+  top_k: 80
+  top_p: 0.7
+template:
+  chat: gpt4all-snoozy-13b-chat
+  completion: gpt4all-snoozy-13b-completion

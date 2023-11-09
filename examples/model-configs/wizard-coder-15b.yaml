@@ -1,0 +1,10 @@
+context_size: 1024
+name: wizard-coder-15b
+parameters:
+  model: WizardCoder-15B-1.0.ggmlv3.q5_1.bin
+  temperature: 0.2
+  top_k: 80
+  top_p: 0.7
+template:
+  chat: wizard-coder-15b-chat
+  completion: wizard-coder-15b-completion
